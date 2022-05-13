@@ -1,0 +1,6 @@
+In questa lezione proseguiamo utilizzando dei modelli più complessi che permettono di risolvere problemi di classificazione.
+Tra questi approfondiremo gli alberi di decisione. La lezione introduce anche la tecnica dei Boosted Decision Tree,
+molto usata anche in contesti fisici per classificare eventi (ad esempio provenienti dai principali esperimenti al CERN di Ginevra).
+
+Al termine della lezione sono indicati degli esercizi, per i quali trovate il materiale qui (https://github.com/biancini/DataScience-HEP)
+e che vi chiedo di sviluppare prima della prossima lezione quando vedremo insieme una soluzione.

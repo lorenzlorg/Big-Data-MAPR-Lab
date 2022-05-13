@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="odor_f <= 0.5\ngini = 0.473\nsamples = 3950\nvalue = [2434, 1516]"] ;
+1 [label="gill_size_n <= 0.5\ngini = 0.247\nsamples = 2845\nvalue = [2434, 411]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="ring_number_o <= 0.5\ngini = 0.067\nsamples = 2359\nvalue = [2277, 82]"] ;
+1 -> 2 ;
+3 [label="habitat_p <= 0.5\ngini = 0.429\nsamples = 119\nvalue = [37, 82]"] ;
+2 -> 3 ;
+4 [label="population_y <= 0.5\ngini = 0.145\nsamples = 89\nvalue = [7, 82]"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 82\nvalue = [0, 82]"] ;
+4 -> 5 ;
+6 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]"] ;
+4 -> 6 ;
+7 [label="gini = 0.0\nsamples = 30\nvalue = [30, 0]"] ;
+3 -> 7 ;
+8 [label="gini = 0.0\nsamples = 2240\nvalue = [2240, 0]"] ;
+2 -> 8 ;
+9 [label="odor_n <= 0.5\ngini = 0.437\nsamples = 486\nvalue = [157, 329]"] ;
+1 -> 9 ;
+10 [label="stalk_shape_t <= 0.5\ngini = 0.269\nsamples = 381\nvalue = [61, 320]"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 320\nvalue = [0, 320]"] ;
+10 -> 11 ;
+12 [label="gini = 0.0\nsamples = 61\nvalue = [61, 0]"] ;
+10 -> 12 ;
+13 [label="population_c <= 0.5\ngini = 0.157\nsamples = 105\nvalue = [96, 9]"] ;
+9 -> 13 ;
+14 [label="gini = 0.0\nsamples = 96\nvalue = [96, 0]"] ;
+13 -> 14 ;
+15 [label="gini = 0.0\nsamples = 9\nvalue = [0, 9]"] ;
+13 -> 15 ;
+16 [label="gini = 0.0\nsamples = 1105\nvalue = [0, 1105]"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
